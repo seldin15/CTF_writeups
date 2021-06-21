@@ -8,7 +8,8 @@
 * [s3ld0s](https://github.com/seldin15)
 
 ### Results
-> 330th in the Open Division ranking / 375th place across all teams
+> 2250 Points
+> 330th in the Open Division ranking / 375th place across all teams (out of 1165 teams)
 
 ## Writeups
 
