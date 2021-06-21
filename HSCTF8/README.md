@@ -5,7 +5,7 @@
 
 ## DragonSec SI team (only I participated in this event, others were busy with exams)
 ### Members
-* [s3ld0s] (https://github.com/seldin15)
+* [s3ld0s](https://github.com/seldin15)
 
 ### Results
 > 330th in the Open Division ranking / 375th place across all teams
