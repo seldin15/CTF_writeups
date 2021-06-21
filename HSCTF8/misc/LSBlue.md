@@ -3,19 +3,11 @@
 
 ## Challenge description
 >Orca watching is an awesome pastime of mine!
+>
+>Downloads: [LSBlue.png](LSBlue.png)
 
 ## Challenge analysis
-I fired up NetCat on my terminal, typed in `nc return-of-the-intro-to-netcat.hsc.tf 1337`and got this:
-![Screenshot](misc_1.png)
+This was a classical image stego challenge. We get a big hint from the png file **LSB**lue, which means it's hiding something inside the Least Significant Bits of the colors.
+I used zsteg tool, and got the flag hiding inside the LSB of blue color.
 
-So it's some kind of a POW to solve. Fired up another terminal (left the nc terminal open) and put this command inside: `python3 <(curl -sSL https://goo.gle/kctf-pow) solve s.AACF.AACx97JG1z+iNN2aSVl4oEix`
-
-And got the solution of the POW:
-![Screenshot](misc_1_2.png)
-
-After this, the only thing left to do was, to copy-paste the solution and we get the flag:
-
-![Screenshot](misc1_3.png)
-
-Flag: flag{the_cat_says_meow}
 
