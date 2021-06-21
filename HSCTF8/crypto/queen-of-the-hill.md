@@ -17,6 +17,10 @@
 ## Challenge analysis
 After reading the description, I immediately saw the "Hill" keyword, which is a Hill cipher. We were also given the matrix values. So I jumped on to [dcode.fr](https://www.dcode.fr/hill-cipher) website, where I solved the challenge.  
 
+I inserted the 3x3 matrix values and got the flag:
+
+![Screenshot](crypto_1.png)
+
 
 The flag: flag{climb_your_way_to_the_top}
 
