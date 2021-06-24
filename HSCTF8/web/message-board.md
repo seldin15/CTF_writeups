@@ -15,6 +15,7 @@ I immediately wanted to check the source code, but there was a catch! We couldn'
 ![Screenshot](web_norightclick_2.png)
 
 Useless-file.css caught my eye, I opened it in the Style Editor and got the flag:
+
 ![Screenshot](web_norightclick_3.png)
 
 Flag: flag{keyboard_shortcuts_or_taskbar}
