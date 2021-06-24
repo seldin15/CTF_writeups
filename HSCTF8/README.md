@@ -13,4 +13,15 @@
 
 ## Writeups
 
+### Crypto
+* [Queen of the Hill](crypto/queen-of-the-hill.md)
+
+### Misc
+* [LSBlue](misc/LSBlue.md)
+* [Return of the Intro to Netcat](misc/Return%20of%20the%20Intro%20to%20Netcat.md)
+
+### Web
+* [Message board](web/message-board.md)
+* [NRC](web/NRC.md)
+
 
