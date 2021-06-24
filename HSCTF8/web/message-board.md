@@ -8,8 +8,14 @@ Your login credentials: username: `kupatergent` password: `gandal`
 
 Server code is attached (slightly modified).
 
-[no-right-click.hsc.tf](no-right-click.hsc.tf)
+Downloads: [message-borard-master.zip](message-board-master.zip)
 
 ## Challenge analysis
-We were given a link to a website in which the flag was hiding. When we access this website, we're greeted with this:
-![Screenshot](web_norightclick_1.png)
+First, I logged in to the website using the credentials that were given to us above. I came to this screen:
+![Screenshot](web_msgbrd_1.png)
+
+Sadly, we had no flag (yet). After my initial website check, I downloaded the ZIP file that had the source code that was slightly modified. After inspecting the app.js code, something caught my eye:
+
+![Screenshot](web_msgbrd_2.png)
+
+In short: It was checking whether our cookie **UserID** matched to the **AdminID**. 
