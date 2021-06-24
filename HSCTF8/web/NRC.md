@@ -2,9 +2,9 @@
 >Points: 107
 
 ## Challenge description
-Find the flag :)
-
-[no-right-click.hsc.tf](no-right-click.hsc.tf)
+>Find the flag :)
+>
+>[no-right-click.hsc.tf](no-right-click.hsc.tf)
 
 ## Challenge analysis
 We were given a link to a website in which the flag was hiding. When we access this website, we're greeted with this:
